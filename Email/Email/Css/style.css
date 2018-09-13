@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.conteniar{
+	width: 80%;
+	margin:0 auto;
+}
+
+section{
+	border: 2px solid black;
+	background: #fff;
+	display: flex;
+	height: 400px;
+}
+
+ .left{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	background-color:#fff;
+	padding: 155px;
+}
+
+ .left p{
+color: grey;
+}
+ .left i{
+color: blue;
+}
+
+ .left span{
+color: #000;
+}
+
+
+ .right{
+	background-color:#000;
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+ .right i{
+	color:darkblue;
+	padding: 155px;
+    font-size: 100px;
+}
